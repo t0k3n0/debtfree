@@ -1,0 +1,58 @@
+{
+  "proteins": [
+    { "name": "Great Value Chicken Breast (3lb)", "price": 7.48, "caloriesPerServing": 140, "proteinPerServing": 26, "carbsPerServing": 0, "fatPerServing": 3, "servings": 12, "unit": "bag", "tags": [] },
+    { "name": "Great Value Ground Beef 80/20 (1lb)", "price": 5.28, "caloriesPerServing": 230, "proteinPerServing": 22, "carbsPerServing": 0, "fatPerServing": 15, "servings": 4, "unit": "pkg", "tags": [] },
+    { "name": "Great Value Large Eggs (18ct)", "price": 3.24, "caloriesPerServing": 70, "proteinPerServing": 6, "carbsPerServing": 0, "fatPerServing": 5, "servings": 18, "unit": "carton", "tags": ["vegetarian"] },
+    { "name": "Great Value Canned Tuna (5oz)", "price": 1.08, "caloriesPerServing": 100, "proteinPerServing": 22, "carbsPerServing": 0, "fatPerServing": 1, "servings": 2, "unit": "can", "tags": [] },
+    { "name": "Great Value Pinto Beans (4lb)", "price": 3.96, "caloriesPerServing": 120, "proteinPerServing": 7, "carbsPerServing": 22, "fatPerServing": 0, "servings": 45, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Black Beans (15oz can)", "price": 0.88, "caloriesPerServing": 110, "proteinPerServing": 7, "carbsPerServing": 20, "fatPerServing": 0, "servings": 3.5, "unit": "can", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Peanut Butter (16oz)", "price": 2.18, "caloriesPerServing": 190, "proteinPerServing": 7, "carbsPerServing": 7, "fatPerServing": 16, "servings": 15, "unit": "jar", "tags": ["vegetarian", "vegan"] },
+    { "name": "Great Value Chicken Thighs (5lb)", "price": 7.94, "caloriesPerServing": 210, "proteinPerServing": 26, "carbsPerServing": 0, "fatPerServing": 11, "servings": 15, "unit": "pkg", "tags": [] },
+    { "name": "Great Value Turkey (1lb)", "price": 4.48, "caloriesPerServing": 170, "proteinPerServing": 21, "carbsPerServing": 0, "fatPerServing": 9, "servings": 4, "unit": "pkg", "tags": [] },
+    { "name": "Great Value Lentils (1lb)", "price": 1.48, "caloriesPerServing": 110, "proteinPerServing": 9, "carbsPerServing": 20, "fatPerServing": 0, "servings": 12, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] }
+  ],
+  "grains": [
+    { "name": "Great Value Long Grain Rice (5lb)", "price": 3.24, "caloriesPerServing": 160, "proteinPerServing": 3, "carbsPerServing": 36, "fatPerServing": 0, "servings": 50, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Spaghetti (1lb)", "price": 1.18, "caloriesPerServing": 200, "proteinPerServing": 7, "carbsPerServing": 42, "fatPerServing": 1, "servings": 8, "unit": "box", "tags": ["vegetarian", "vegan"] },
+    { "name": "Great Value Bread (20oz)", "price": 1.48, "caloriesPerServing": 70, "proteinPerServing": 3, "carbsPerServing": 13, "fatPerServing": 1, "servings": 18, "unit": "loaf", "tags": ["vegetarian"] },
+    { "name": "Great Value Oats (42oz)", "price": 3.48, "caloriesPerServing": 150, "proteinPerServing": 5, "carbsPerServing": 27, "fatPerServing": 3, "servings": 30, "unit": "canister", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Flour Tortillas (10ct)", "price": 1.98, "caloriesPerServing": 140, "proteinPerServing": 4, "carbsPerServing": 24, "fatPerServing": 3, "servings": 10, "unit": "pkg", "tags": ["vegetarian"] },
+    { "name": "Great Value Elbow Macaroni (1lb)", "price": 1.18, "caloriesPerServing": 200, "proteinPerServing": 7, "carbsPerServing": 42, "fatPerServing": 1, "servings": 8, "unit": "box", "tags": ["vegetarian", "vegan"] },
+    { "name": "Great Value Instant Ramen (12pk)", "price": 2.98, "caloriesPerServing": 190, "proteinPerServing": 4, "carbsPerServing": 26, "fatPerServing": 7, "servings": 12, "unit": "pk", "tags": ["vegetarian"] },
+    { "name": "Great Value Cornmeal (5lb)", "price": 3.28, "caloriesPerServing": 110, "proteinPerServing": 2, "carbsPerServing": 24, "fatPerServing": 1, "servings": 56, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] }
+  ],
+  "dairy": [
+    { "name": "Great Value Whole Milk (1gal)", "price": 3.36, "caloriesPerServing": 150, "proteinPerServing": 8, "carbsPerServing": 12, "fatPerServing": 8, "servings": 16, "unit": "gal", "tags": ["vegetarian"] },
+    { "name": "Great Value Shredded Cheddar (8oz)", "price": 2.24, "caloriesPerServing": 110, "proteinPerServing": 7, "carbsPerServing": 0, "fatPerServing": 9, "servings": 8, "unit": "bag", "tags": ["vegetarian", "gluten-free"] },
+    { "name": "Great Value Greek Yogurt (32oz)", "price": 3.98, "caloriesPerServing": 100, "proteinPerServing": 17, "carbsPerServing": 6, "fatPerServing": 0, "servings": 5, "unit": "tub", "tags": ["vegetarian", "gluten-free"] },
+    { "name": "Great Value Butter (1lb)", "price": 3.98, "caloriesPerServing": 100, "proteinPerServing": 0, "carbsPerServing": 0, "fatPerServing": 11, "servings": 32, "unit": "pkg", "tags": ["vegetarian", "gluten-free"] },
+    { "name": "Great Value Cream Cheese (8oz)", "price": 1.68, "caloriesPerServing": 90, "proteinPerServing": 2, "carbsPerServing": 1, "fatPerServing": 9, "servings": 8, "unit": "pkg", "tags": ["vegetarian", "gluten-free"] }
+  ],
+  "produce": [
+    { "name": "Bananas (1lb)", "price": 0.62, "caloriesPerServing": 105, "proteinPerServing": 1, "carbsPerServing": 27, "fatPerServing": 0, "servings": 3, "unit": "lb", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Russet Potatoes (5lb)", "price": 3.97, "caloriesPerServing": 160, "proteinPerServing": 4, "carbsPerServing": 37, "fatPerServing": 0, "servings": 10, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Yellow Onions (3lb)", "price": 2.47, "caloriesPerServing": 45, "proteinPerServing": 1, "carbsPerServing": 11, "fatPerServing": 0, "servings": 9, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Carrots (2lb)", "price": 1.48, "caloriesPerServing": 25, "proteinPerServing": 1, "carbsPerServing": 6, "fatPerServing": 0, "servings": 8, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Cabbage (1 head)", "price": 1.28, "caloriesPerServing": 22, "proteinPerServing": 1, "carbsPerServing": 5, "fatPerServing": 0, "servings": 8, "unit": "head", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Apples (3lb)", "price": 3.97, "caloriesPerServing": 95, "proteinPerServing": 0, "carbsPerServing": 25, "fatPerServing": 0, "servings": 6, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Garlic (3pk)", "price": 1.98, "caloriesPerServing": 5, "proteinPerServing": 0, "carbsPerServing": 1, "fatPerServing": 0, "servings": 30, "unit": "pk", "tags": ["vegetarian", "vegan", "gluten-free"] }
+  ],
+  "frozen": [
+    { "name": "Great Value Mixed Vegetables (12oz)", "price": 1.28, "caloriesPerServing": 65, "proteinPerServing": 3, "carbsPerServing": 12, "fatPerServing": 0, "servings": 3, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Frozen Broccoli (12oz)", "price": 1.28, "caloriesPerServing": 25, "proteinPerServing": 2, "carbsPerServing": 4, "fatPerServing": 0, "servings": 3, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Frozen Corn (12oz)", "price": 1.08, "caloriesPerServing": 80, "proteinPerServing": 3, "carbsPerServing": 17, "fatPerServing": 1, "servings": 3, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Frozen Tilapia (2lb)", "price": 7.94, "caloriesPerServing": 110, "proteinPerServing": 23, "carbsPerServing": 0, "fatPerServing": 2, "servings": 8, "unit": "bag", "tags": ["gluten-free"] }
+  ],
+  "pantry": [
+    { "name": "Great Value Vegetable Oil (48oz)", "price": 3.48, "caloriesPerServing": 120, "proteinPerServing": 0, "carbsPerServing": 0, "fatPerServing": 14, "servings": 48, "unit": "bottle", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Tomato Sauce (8oz)", "price": 0.58, "caloriesPerServing": 20, "proteinPerServing": 1, "carbsPerServing": 4, "fatPerServing": 0, "servings": 4, "unit": "can", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Diced Tomatoes (14.5oz)", "price": 0.78, "caloriesPerServing": 25, "proteinPerServing": 1, "carbsPerServing": 5, "fatPerServing": 0, "servings": 3.5, "unit": "can", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Chicken Broth (32oz)", "price": 1.08, "caloriesPerServing": 10, "proteinPerServing": 1, "carbsPerServing": 1, "fatPerServing": 0, "servings": 4, "unit": "carton", "tags": ["gluten-free"] },
+    { "name": "Great Value Soy Sauce (15oz)", "price": 1.18, "caloriesPerServing": 10, "proteinPerServing": 1, "carbsPerServing": 1, "fatPerServing": 0, "servings": 30, "unit": "bottle", "tags": ["vegetarian", "vegan"] },
+    { "name": "Great Value Salsa (16oz)", "price": 1.68, "caloriesPerServing": 10, "proteinPerServing": 0, "carbsPerServing": 2, "fatPerServing": 0, "servings": 14, "unit": "jar", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Honey (12oz)", "price": 3.48, "caloriesPerServing": 60, "proteinPerServing": 0, "carbsPerServing": 17, "fatPerServing": 0, "servings": 24, "unit": "bottle", "tags": ["vegetarian", "gluten-free"] },
+    { "name": "Great Value Sugar (4lb)", "price": 2.98, "caloriesPerServing": 15, "proteinPerServing": 0, "carbsPerServing": 4, "fatPerServing": 0, "servings": 227, "unit": "bag", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Salt (26oz)", "price": 0.68, "caloriesPerServing": 0, "proteinPerServing": 0, "carbsPerServing": 0, "fatPerServing": 0, "servings": 200, "unit": "canister", "tags": ["vegetarian", "vegan", "gluten-free"] },
+    { "name": "Great Value Black Pepper (4oz)", "price": 2.98, "caloriesPerServing": 0, "proteinPerServing": 0, "carbsPerServing": 0, "fatPerServing": 0, "servings": 100, "unit": "container", "tags": ["vegetarian", "vegan", "gluten-free"] }
+  ]
+}
