@@ -4,10 +4,120 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>debtfree</title>
+    <title>DebtFree — Free Private Debt Payoff Calculator | Snowball & Avalanche Methods</title>
+    <meta name="description" content="Free debt payoff planner with snowball and avalanche methods. 100% private — all data stays on your device. No ads, no tracking, no sign-up required. Plus a $250/month meal planner using Walmart prices." />
+    <meta name="keywords" content="debt payoff calculator, debt snowball calculator, debt avalanche calculator, free debt planner, private financial planner, budget meal planner, debt free calculator, no sign up debt calculator, debt payoff plan, snowball method, avalanche method, walmart meal plan, budget grocery list" />
+    <meta name="author" content="DebtFree Tools" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://debtfree-tools.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="DebtFree — Free Private Debt Payoff Calculator" />
+    <meta property="og:description" content="Compare snowball vs avalanche debt payoff strategies. 100% private — zero data leaves your device. Free forever, no ads." />
+    <meta property="og:url" content="https://debtfree-tools.vercel.app/" />
+    <meta property="og:site_name" content="DebtFree" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="DebtFree — Free Private Debt Payoff Calculator" />
+    <meta name="twitter:description" content="Compare snowball vs avalanche debt payoff strategies. 100% private — zero data leaves your device." />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "DebtFree",
+      "url": "https://debtfree-tools.vercel.app/",
+      "description": "Free, privacy-first debt payoff calculator using snowball and avalanche methods. Includes a $250/month meal planner with Walmart prices. All processing happens locally in your browser.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Debt snowball calculator",
+        "Debt avalanche calculator",
+        "Side-by-side payoff comparison",
+        "Excel and PDF file upload",
+        "Export payoff schedule to Excel",
+        "$250/month meal planner",
+        "100% client-side processing",
+        "No data collection or tracking",
+        "Works offline as PWA"
+      ],
+      "browserRequirements": "Requires a modern web browser with JavaScript enabled"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is DebtFree really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, completely free. No premium tier, no ads, no in-app purchases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my financial data safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your data never leaves your device. All calculations happen locally in your browser. There is no server and no database."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the debt snowball method?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The snowball method pays off your smallest debt first while making minimum payments on everything else. When the smallest debt is paid off, you roll that payment into the next smallest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the debt avalanche method?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The avalanche method pays off the debt with the highest APR first. This saves the most money on interest but may take longer to see your first debt eliminated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I really eat for $250 a month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The meal planner uses actual Walmart Great Value prices based on USDA Thrifty Food Plan guidelines ($247-$309/month for a single adult)."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- SEO content for search crawlers (hidden when React mounts) -->
+    <noscript>
+      <h1>DebtFree — Free Debt Payoff Calculator</h1>
+      <p>DebtFree is a free, privacy-first debt payoff planner. Compare snowball vs avalanche methods to find the fastest way out of debt. All processing happens in your browser — no data is ever sent to a server.</p>
+      <h2>Features</h2>
+      <ul>
+        <li>Debt snowball calculator — pay smallest balance first</li>
+        <li>Debt avalanche calculator — pay highest APR first</li>
+        <li>Upload Excel spreadsheets or PDF bank statements</li>
+        <li>$250/month meal planner using Walmart prices</li>
+        <li>Export your payoff schedule to Excel</li>
+        <li>Works on your phone — add to homescreen</li>
+      </ul>
+    </noscript>
   </body>
 </html>
