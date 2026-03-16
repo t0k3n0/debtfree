@@ -141,6 +141,12 @@ export function generateTemplate(): ArrayBuffer {
   return XLSX.write(workbook, { type: 'array', bookType: 'xlsx' })
 }
 
+// Prevent spreadsheet formula injection (DDE attacks)
+function sanitizeCell(value: string): string {
+  if (/^[=+\-@\t\r]/.test(value)) return `'${value}`
+  return value
+}
+
 export function exportPayoffSchedule(
   schedule: { month: number; debts: { name: string; balance: number; payment: number }[]; totalBalance: number }[],
   method: string
@@ -150,8 +156,9 @@ export function exportPayoffSchedule(
   const rows = schedule.map((m) => {
     const row: Record<string, number | string> = { Month: m.month }
     for (const d of m.debts) {
-      row[`${d.name} Balance`] = Math.round(d.balance * 100) / 100
-      row[`${d.name} Payment`] = Math.round(d.payment * 100) / 100
+      const safeName = sanitizeCell(d.name)
+      row[`${safeName} Balance`] = Math.round(d.balance * 100) / 100
+      row[`${safeName} Payment`] = Math.round(d.payment * 100) / 100
     }
     row['Total Remaining'] = Math.round(m.totalBalance * 100) / 100
     return row

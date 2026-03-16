@@ -29,9 +29,24 @@ export default function Upload() {
   const handleFile = useCallback(async (file: File) => {
     setMessages([])
     setSaved(false)
+
+    // Validate file size (5MB max)
+    if (file.size > 5 * 1024 * 1024) {
+      setMessages(['File too large. Maximum size is 5 MB.'])
+      return
+    }
+
+    // Validate file type by extension and MIME
+    const isPdf = file.name.endsWith('.pdf') || file.type === 'application/pdf'
+    const isSpreadsheet = /\.(xlsx|xls|csv)$/i.test(file.name)
+    if (!isPdf && !isSpreadsheet) {
+      setMessages(['Unsupported file type. Please upload .xlsx, .xls, .csv, or .pdf files.'])
+      return
+    }
+
     const buffer = await file.arrayBuffer()
 
-    if (file.name.endsWith('.pdf')) {
+    if (isPdf) {
       const result = await parsePdfFile(buffer)
       setMessages(result.errors)
       if (result.possibleDebts.length > 0) {
@@ -167,6 +182,7 @@ export default function Upload() {
               <input
                 value={debt.name}
                 onChange={(e) => updateDebt(debt.id, 'name', e.target.value)}
+                maxLength={64}
                 placeholder="Debt name (e.g. Credit Card)"
                 className="flex-1 px-2 py-1 rounded border border-slate-300 dark:border-slate-700 bg-transparent text-slate-900 dark:text-white text-sm outline-none focus:ring-1 focus:ring-emerald-500"
               />

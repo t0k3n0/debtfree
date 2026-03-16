@@ -47,9 +47,10 @@ export async function parsePdfFile(buffer: ArrayBuffer): Promise<PdfParseResult>
         .filter((a) => a > 100)
 
       if (lineAmounts.length > 0) {
-        // Clean up the name: remove dollar amounts, extra whitespace, numbers
+        // Clean up the name: remove dollar amounts, control chars, extra whitespace
         let name = segment
           .replace(amountRegex, '')
+          .replace(/[\u0000-\u001F\u200B-\u200F\u202A-\u202E\uFEFF]/g, '')
           .replace(/[\d.,%]+/g, ' ')
           .replace(/\s+/g, ' ')
           .trim()
@@ -86,6 +87,7 @@ export async function parsePdfFile(buffer: ArrayBuffer): Promise<PdfParseResult>
         if (chunkAmounts.length > 0) {
           let name = chunk
             .replace(amountRegex, '')
+            .replace(/[\u0000-\u001F\u200B-\u200F\u202A-\u202E\uFEFF]/g, '')
             .replace(/[\d.,%]+/g, ' ')
             .replace(/\s+/g, ' ')
             .trim()
